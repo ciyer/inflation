@@ -1,0 +1,30 @@
+'@id': https://renku-ci-ui-1274.dev.renku.ch/projects/cramakri/inflation
+'@type':
+- http://schema.org/Project
+- http://www.w3.org/ns/prov#Location
+http://schema.org/agent: 0.15.1
+http://schema.org/creator:
+  '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/affiliation: null
+  http://schema.org/alternateName: null
+  http://schema.org/email: cramakri@ethz.ch
+  http://schema.org/name: Chandrasekahr Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label: Chandrasekahr Ramakrishnan
+http://schema.org/dateCreated: '2021-06-01T15:01:56.344679+00:00'
+http://schema.org/name: inflation
+http://schema.org/schemaVersion: '8'
+https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate: false
+https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+https://swissdatasciencecenter.github.io/renku-ontology#templateId: python-minimal
+https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata: '{"__template_source__":
+  "https://github.com/SwissDataScienceCenter/renku-project-template", "__template_ref__":
+  "master", "__template_id__": "python-minimal", "__namespace__": "cramakri", "__automated_update__":
+  true, "__repository__": "https://dev.renku.ch/gitlab", "__sanitized_project_name__":
+  "inflation", "__project_slug__": "cramakri/inflation", "description": "Exploring
+  inflation", "name": "inflation"}'
+https://swissdatasciencecenter.github.io/renku-ontology#templateReference: master
+https://swissdatasciencecenter.github.io/renku-ontology#templateSource: https://github.com/SwissDataScienceCenter/renku-project-template
+https://swissdatasciencecenter.github.io/renku-ontology#templateVersion: bc0fee721f63359e6a27982cd5dd7df5cec81be4
