@@ -19,7 +19,7 @@
   - '@value': false
   https://swissdatasciencecenter.github.io/renku-ontology#source:
   - '@value': ../../../../../uploads/Y3JhbWFrcmlldGh6LmNo/barro-data-set.csv
-- '@id': https://sekhar.dev.renku.ch/datasets/794d8305-8337-452a-894c-f5154a444b27
+- '@id': https://sekhar.dev.renku.ch/datasets/007ef159-4b78-4913-8db2-e52c3f3c0338
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -29,9 +29,9 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-06-04T04:18:49.324154+00:00'
+  - '@value': '2021-06-04T04:20:24.287936+00:00'
   http://schema.org/description:
-  - '@value': 'Table 11.1 from \[Marcoeconomics, A Modern Approach\](https://scholar.harvard.edu/barro/publications/macroeconomics-modern-approach)
+  - '@value': 'Table 11.1 from [Marcoeconomics, A Modern Approach](https://scholar.harvard.edu/barro/publications/macroeconomics-modern-approach)
       by Robert Barro, 2008
 
 
@@ -39,7 +39,8 @@
   http://schema.org/hasPart:
   - '@id': https://sekhar.dev.renku.ch/blob/353f0371964c81c8503b6f2cf9a0d7a955320507/data/barro/barro-data-set.csv
   http://schema.org/identifier:
-  - '@value': 794d8305-8337-452a-894c-f5154a444b27
+  - '@value': 007ef159-4b78-4913-8db2-e52c3f3c0338
+  http://schema.org/image: []
   http://schema.org/isPartOf:
   - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   http://schema.org/keywords:
@@ -50,13 +51,13 @@
   - '@value': Barro
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://sekhar.dev.renku.ch/datasets/794d8305-8337-452a-894c-f5154a444b27
+  - '@value': https://sekhar.dev.renku.ch/datasets/007ef159-4b78-4913-8db2-e52c3f3c0338
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 794d8305-8337-452a-894c-f5154a444b27
+  - '@value': 007ef159-4b78-4913-8db2-e52c3f3c0338
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
   http://www.w3.org/ns/prov#wasDerivedFrom:
-  - '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F60cc9b66-5252-4442-9e15-706a85c4f4c9
+  - '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F794d8305-8337-452a-894c-f5154a444b27
 - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   '@type':
   - http://schema.org/Project
@@ -88,11 +89,11 @@
   - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
   https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
   - '@value': bc0fee721f63359e6a27982cd5dd7df5cec81be4
-- '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F60cc9b66-5252-4442-9e15-706a85c4f4c9
+- '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F794d8305-8337-452a-894c-f5154a444b27
   '@type':
   - http://schema.org/URL
   http://schema.org/url:
-  - '@id': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+  - '@id': https://sekhar.dev.renku.ch/datasets/794d8305-8337-452a-894c-f5154a444b27
 - '@id': mailto:cramakri@ethz.ch
   '@type':
   - http://schema.org/Person
