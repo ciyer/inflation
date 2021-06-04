@@ -1,4 +1,25 @@
-- '@id': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+- '@id': https://sekhar.dev.renku.ch/blob/353f0371964c81c8503b6f2cf9a0d7a955320507/data/barro/barro-data-set.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-04T04:18:49.319643+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/name:
+  - '@value': barro-data-set.csv
+  http://schema.org/url:
+  - '@value': https://sekhar.dev.renku.ch/projects/cramakri/inflation/files/blob/data/barro/barro-data-set.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/barro/barro-data-set.csv@353f0371964c81c8503b6f2cf9a0d7a955320507
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/barro/barro-data-set.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': ../../../../../uploads/Y3JhbWFrcmlldGh6LmNo/barro-data-set.csv
+- '@id': https://sekhar.dev.renku.ch/datasets/794d8305-8337-452a-894c-f5154a444b27
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,16 +29,17 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-06-04T04:18:36.947350+00:00'
+  - '@value': '2021-06-04T04:18:49.324154+00:00'
   http://schema.org/description:
   - '@value': 'Table 11.1 from \[Marcoeconomics, A Modern Approach\](https://scholar.harvard.edu/barro/publications/macroeconomics-modern-approach)
       by Robert Barro, 2008
 
 
       Contains Inflation Rates and Money Growth Rates for 82 Countries from 1960-2000.'
-  http://schema.org/hasPart: []
+  http://schema.org/hasPart:
+  - '@id': https://sekhar.dev.renku.ch/blob/353f0371964c81c8503b6f2cf9a0d7a955320507/data/barro/barro-data-set.csv
   http://schema.org/identifier:
-  - '@value': 60cc9b66-5252-4442-9e15-706a85c4f4c9
+  - '@value': 794d8305-8337-452a-894c-f5154a444b27
   http://schema.org/isPartOf:
   - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   http://schema.org/keywords:
@@ -28,17 +50,19 @@
   - '@value': Barro
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+  - '@value': https://sekhar.dev.renku.ch/datasets/794d8305-8337-452a-894c-f5154a444b27
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 60cc9b66-5252-4442-9e15-706a85c4f4c9
+  - '@value': 794d8305-8337-452a-894c-f5154a444b27
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F60cc9b66-5252-4442-9e15-706a85c4f4c9
 - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   '@type':
   - http://schema.org/Project
   - http://www.w3.org/ns/prov#Location
   http://schema.org/agent:
-  - '@value': 0.15.1
+  - '@value': 0.14.2
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
@@ -64,6 +88,11 @@
   - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
   https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
   - '@value': bc0fee721f63359e6a27982cd5dd7df5cec81be4
+- '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2F60cc9b66-5252-4442-9e15-706a85c4f4c9
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
 - '@id': mailto:cramakri@ethz.ch
   '@type':
   - http://schema.org/Person
