@@ -1,4 +1,67 @@
-- '@id': https://sekhar.dev.renku.ch/datasets/cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+- '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/CPI.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-04T04:23:34.142623+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/name:
+  - '@value': CPI.csv
+  http://schema.org/url:
+  - '@value': https://sekhar.dev.renku.ch/projects/cramakri/inflation/files/blob/data/oecd/CPI.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/CPI.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/CPI.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': ../../../../../uploads/Y3JhbWFrcmlldGh6LmNo/CPI.csv
+- '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M1.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-04T04:23:34.123211+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/name:
+  - '@value': M1.csv
+  http://schema.org/url:
+  - '@value': https://sekhar.dev.renku.ch/projects/cramakri/inflation/files/blob/data/oecd/M1.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/M1.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/M1.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': ../../../../../uploads/Y3JhbWFrcmlldGh6LmNo/M1.csv
+- '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M3.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-04T04:23:34.103538+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/name:
+  - '@value': M3.csv
+  http://schema.org/url:
+  - '@value': https://sekhar.dev.renku.ch/projects/cramakri/inflation/files/blob/data/oecd/M3.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/M3.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/M3.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': ../../../../../uploads/Y3JhbWFrcmlldGh6LmNo/M3.csv
+- '@id': https://sekhar.dev.renku.ch/datasets/a28f0e1f-4764-430d-87e9-2a7e86a827ab
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,7 +71,7 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-06-04T04:23:26.692345+00:00'
+  - '@value': '2021-06-04T04:23:34.148451+00:00'
   http://schema.org/description:
   - '@value': 'Data on
 
@@ -21,9 +84,12 @@
 
 
       Retrieved from [https://data.oecd.org](https://data.oecd.org/) in May 2021.'
-  http://schema.org/hasPart: []
+  http://schema.org/hasPart:
+  - '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M3.csv
+  - '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M1.csv
+  - '@id': https://sekhar.dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/CPI.csv
   http://schema.org/identifier:
-  - '@value': cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+  - '@value': a28f0e1f-4764-430d-87e9-2a7e86a827ab
   http://schema.org/isPartOf:
   - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   http://schema.org/keywords:
@@ -35,11 +101,13 @@
   - '@value': OECD
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://sekhar.dev.renku.ch/datasets/cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+  - '@value': https://sekhar.dev.renku.ch/datasets/a28f0e1f-4764-430d-87e9-2a7e86a827ab
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+  - '@value': a28f0e1f-4764-430d-87e9-2a7e86a827ab
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2Fcf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
 - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
   '@type':
   - http://schema.org/Project
@@ -71,6 +139,11 @@
   - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
   https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
   - '@value': bc0fee721f63359e6a27982cd5dd7df5cec81be4
+- '@id': https://sekhar.dev.renku.ch/urls/%2F%2Fsekhar.dev.renku.ch%2Fdatasets%2Fcf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://sekhar.dev.renku.ch/datasets/cf8cb11d-0ab4-4c4b-b4c2-12b7de9f2cd2
 - '@id': mailto:cramakri@ethz.ch
   '@type':
   - http://schema.org/Person
