@@ -1,0 +1,78 @@
+- '@id': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/Dataset
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/alternateName:
+  - '@value': barro
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-04T04:18:36.947350+00:00'
+  http://schema.org/description:
+  - '@value': 'Table 11.1 from \[Marcoeconomics, A Modern Approach\](https://scholar.harvard.edu/barro/publications/macroeconomics-modern-approach)
+      by Robert Barro, 2008
+
+
+      Contains Inflation Rates and Money Growth Rates for 82 Countries from 1960-2000.'
+  http://schema.org/hasPart: []
+  http://schema.org/identifier:
+  - '@value': 60cc9b66-5252-4442-9e15-706a85c4f4c9
+  http://schema.org/isPartOf:
+  - '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/keywords:
+  - '@value': Robert Barro
+  - '@value': CPI
+  - '@value': M0
+  http://schema.org/name:
+  - '@value': Barro
+  http://schema.org/subjectOf: []
+  http://schema.org/url:
+  - '@value': https://sekhar.dev.renku.ch/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': 60cc9b66-5252-4442-9e15-706a85c4f4c9
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/datasets/60cc9b66-5252-4442-9e15-706a85c4f4c9
+- '@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.15.1
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-01T15:01:56.344679+00:00'
+  http://schema.org/name:
+  - '@value': inflation
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"__template_source__": "https://github.com/SwissDataScienceCenter/renku-project-template",
+      "__template_ref__": "master", "__template_id__": "python-minimal", "__namespace__":
+      "cramakri", "__automated_update__": true, "__repository__": "https://dev.renku.ch/gitlab",
+      "__sanitized_project_name__": "inflation", "__project_slug__": "cramakri/inflation",
+      "description": "Exploring inflation", "name": "inflation"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': bc0fee721f63359e6a27982cd5dd7df5cec81be4
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekhar Ramakrishnan
+  - '@value': Chandrasekahr Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekhar Ramakrishnan
+  - '@value': Chandrasekahr Ramakrishnan
