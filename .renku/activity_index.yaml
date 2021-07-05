@@ -1,0 +1,24 @@
+data/preprocess/m1-cpi_a.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m1-cpi_a_reg.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m1-cpi_m.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m1-cpi_m_reg.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m3-cpi_a.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m3-cpi_a_reg.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m3-cpi_m.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+data/preprocess/m3-cpi_m_reg.csv:
+  72a0cb255c2f84aecd95c9589c057bb3026d79eb:
+  - .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml

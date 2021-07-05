@@ -1,8 +1,8 @@
-'@id': https://sekhar.dev.renku.ch/projects/cramakri/inflation
+'@id': https://dev.renku.ch/projects/cramakri/inflation
 '@type':
 - http://schema.org/Project
 - http://www.w3.org/ns/prov#Location
-http://schema.org/agent: 0.14.2
+http://schema.org/agent: 0.15.1
 http://schema.org/creator:
   '@id': mailto:cramakri@ethz.ch
   '@type':

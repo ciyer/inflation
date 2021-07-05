@@ -1,0 +1,477 @@
+- '@id': https://dev.renku.ch/blob/13f3136c0df1c4fb232095a63f3c34c3b559c334/src/python/preprocess_cpi-m.py
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': src/python/preprocess_cpi-m.py@13f3136c0df1c4fb232095a63f3c34c3b559c334
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': src/python/preprocess_cpi-m.py
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_a.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m1-cpi_a.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m1-cpi_a.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/212bf3e0aa3d49159646d338fc9d49e9
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_a_reg.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m1-cpi_a_reg.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m1-cpi_a_reg.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/473a405278f14163be3f701190ea21cb
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_m.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m1-cpi_m.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m1-cpi_m.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/611dcd6049a24f74bb30bb9399249ae4
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_m_reg.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m1-cpi_m_reg.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m1-cpi_m_reg.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/6ee8c2de8c024c5ea6a3e7695598ffa2
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_a.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m3-cpi_a.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m3-cpi_a.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/70ac165c451e4edab5aab3eb5d8851fd
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_a_reg.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m3-cpi_a_reg.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m3-cpi_a_reg.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/f0b85b645ea94006b3942f4ee4716a51
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_m.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m3-cpi_m.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m3-cpi_m.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/ccbf63e292274cd79d44f476faac0cd0
+- '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_m_reg.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/preprocess/m3-cpi_m_reg.csv@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/preprocess/m3-cpi_m_reg.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/a2e09469b709449fbff8e48fe477fbf8
+- '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Collection
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd
+  http://www.w3.org/ns/prov#hadMember:
+  - '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M1.csv
+  - '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/CPI.csv
+  - '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M3.csv
+- '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/CPI.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/CPI.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/CPI.csv
+- '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M1.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/M1.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/M1.csv
+- '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd/M3.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/M3.csv@c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/M3.csv
+- '@id': https://dev.renku.ch/projects/cramakri/inflation
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.14.2
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-06-01T15:01:56.344679+00:00'
+  http://schema.org/name:
+  - '@value': inflation
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"__template_source__": "https://github.com/SwissDataScienceCenter/renku-project-template",
+      "__template_ref__": "master", "__template_id__": "python-minimal", "__namespace__":
+      "cramakri", "__automated_update__": true, "__repository__": "https://dev.renku.ch/gitlab",
+      "__sanitized_project_name__": "inflation", "__project_slug__": "cramakri/inflation",
+      "description": "Exploring inflation", "name": "inflation"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': https://github.com/SwissDataScienceCenter/renku-project-template
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': bc0fee721f63359e6a27982cd5dd7df5cec81be4
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310
+  '@type':
+  - http://www.w3.org/ns/prov#Entity
+  - http://www.w3.org/ns/prov#Plan
+  - https://swissdatasciencecenter.github.io/renku-ontology#Run
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://schema.org/keywords: []
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+  https://swissdatasciencecenter.github.io/renku-ontology#command:
+  - '@value': python
+  https://swissdatasciencecenter.github.io/renku-ontology#hasArguments: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasInputs:
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/inputs/1
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/inputs/2
+  https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs:
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/611dcd6049a24f74bb30bb9399249ae4
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/ccbf63e292274cd79d44f476faac0cd0
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/f0b85b645ea94006b3942f4ee4716a51
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/473a405278f14163be3f701190ea21cb
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/70ac165c451e4edab5aab3eb5d8851fd
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/a2e09469b709449fbff8e48fe477fbf8
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/212bf3e0aa3d49159646d338fc9d49e9
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/6ee8c2de8c024c5ea6a3e7695598ffa2
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameters: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasSubprocess: []
+  https://swissdatasciencecenter.github.io/renku-ontology#successCodes: []
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/inputs/1
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': src/python/preprocess_cpi-m.py
+  http://schema.org/name:
+  - '@value': input-1
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "src/python/preprocess_cpi-m.py"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://dev.renku.ch/blob/13f3136c0df1c4fb232095a63f3c34c3b559c334/src/python/preprocess_cpi-m.py
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 1
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/inputs/2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/oecd
+  http://schema.org/name:
+  - '@value': input-2
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/oecd"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 2
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/212bf3e0aa3d49159646d338fc9d49e9
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m1-cpi_a.csv
+  http://schema.org/name:
+  - '@value': output-fc6b
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m1-cpi_a.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_a.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/473a405278f14163be3f701190ea21cb
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m1-cpi_a_reg.csv
+  http://schema.org/name:
+  - '@value': output-980b
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m1-cpi_a_reg.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_a_reg.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/611dcd6049a24f74bb30bb9399249ae4
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m1-cpi_m.csv
+  http://schema.org/name:
+  - '@value': output-6cd7
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m1-cpi_m.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_m.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/6ee8c2de8c024c5ea6a3e7695598ffa2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m1-cpi_m_reg.csv
+  http://schema.org/name:
+  - '@value': output-fa76
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m1-cpi_m_reg.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m1-cpi_m_reg.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/70ac165c451e4edab5aab3eb5d8851fd
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m3-cpi_a.csv
+  http://schema.org/name:
+  - '@value': output-cd3c
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m3-cpi_a.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_a.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/a2e09469b709449fbff8e48fe477fbf8
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m3-cpi_m_reg.csv
+  http://schema.org/name:
+  - '@value': output-e82d
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m3-cpi_m_reg.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_m_reg.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/ccbf63e292274cd79d44f476faac0cd0
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m3-cpi_m.csv
+  http://schema.org/name:
+  - '@value': output-9079
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m3-cpi_m.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_m.csv
+- '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310/outputs/f0b85b645ea94006b3942f4ee4716a51
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://schema.org/defaultValue:
+  - '@value': data/preprocess/m3-cpi_a_reg.csv
+  http://schema.org/name:
+  - '@value': output-6762
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/preprocess/m3-cpi_a_reg.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://dev.renku.ch/blob/72a0cb255c2f84aecd95c9589c057bb3026d79eb/data/preprocess/m3-cpi_a_reg.csv
+- '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1
+  '@type':
+  - http://purl.org/wf4ever/wfprov#WorkflowEngine
+  - http://www.w3.org/ns/prov#SoftwareAgent
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': renku 0.15.1
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  '@type':
+  - http://purl.org/wf4ever/wfprov#ProcessRun
+  - http://www.w3.org/ns/prov#Activity
+  http://schema.org/isPartOf:
+  - '@id': https://dev.renku.ch/projects/cramakri/inflation
+  http://www.w3.org/2000/01/rdf-schema#comment:
+  - '@value': 'renku run: committing 8 newly added files'
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml@72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/824e760e1bb648c1a9b9e8872f83fff0_python.yaml
+  http://www.w3.org/ns/prov#endedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-07-05T12:39:37+00:00'
+  http://www.w3.org/ns/prov#influenced: []
+  http://www.w3.org/ns/prov#qualifiedAssociation:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/association
+  http://www.w3.org/ns/prov#qualifiedUsage:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/inputs/1
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/inputs/2
+  http://www.w3.org/ns/prov#startedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-07-05T12:39:37+00:00'
+  http://www.w3.org/ns/prov#wasAssociatedWith:
+  - '@id': mailto:cramakri@ethz.ch
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1
+  http://www.w3.org/ns/prov#wasInformedBy:
+  - '@id': https://localhost/activities/commit/dc163bdd05964d512f10899e4d55f7e57eca711a
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameter: []
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/association
+  '@type':
+  - http://www.w3.org/ns/prov#Association
+  http://www.w3.org/ns/prov#agent:
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.15.1
+  http://www.w3.org/ns/prov#hadPlan:
+  - '@id': https://dev.renku.ch/runs/43897205-e591-4ff0-800b-e9656ab80310
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/inputs/1
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://dev.renku.ch/blob/13f3136c0df1c4fb232095a63f3c34c3b559c334/src/python/preprocess_cpi-m.py
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/1
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/inputs/2
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://dev.renku.ch/blob/c0a356c13fd18dc2ef3d1dda520e8a4f258ee14d/data/oecd
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/2
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/212bf3e0aa3d49159646d338fc9d49e9
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/212bf3e0aa3d49159646d338fc9d49e9
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/473a405278f14163be3f701190ea21cb
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/473a405278f14163be3f701190ea21cb
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/611dcd6049a24f74bb30bb9399249ae4
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/611dcd6049a24f74bb30bb9399249ae4
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/6ee8c2de8c024c5ea6a3e7695598ffa2
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/6ee8c2de8c024c5ea6a3e7695598ffa2
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/70ac165c451e4edab5aab3eb5d8851fd
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/70ac165c451e4edab5aab3eb5d8851fd
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/a2e09469b709449fbff8e48fe477fbf8
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/a2e09469b709449fbff8e48fe477fbf8
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/ccbf63e292274cd79d44f476faac0cd0
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/ccbf63e292274cd79d44f476faac0cd0
+- '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb/outputs/f0b85b645ea94006b3942f4ee4716a51
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/72a0cb255c2f84aecd95c9589c057bb3026d79eb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/f0b85b645ea94006b3942f4ee4716a51
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekahr Ramakrishnan
+  - '@value': Chandrasekhar Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekahr Ramakrishnan
+  - '@value': Chandrasekhar Ramakrishnan
