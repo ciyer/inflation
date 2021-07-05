@@ -4,7 +4,10 @@ ARG RENKU_BASE_IMAGE=renku/renkulab-py:3.8-0.7.5
 FROM ${RENKU_BASE_IMAGE}
 
 # Uncomment and adapt if code is to be included in the image
-# COPY src /code/src
+COPY --chown=jovyan:jovyan src /code/src
+RUN ln -s /code/src work/
+RUN pip install -e /code/src/python/qtm
+
 
 # Uncomment and adapt if your R or python packages require extra linux (ubuntu) software
 # e.g. the following installs apt-utils and vim; each pkg on its own line, all lines
