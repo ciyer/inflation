@@ -35,7 +35,7 @@ def xy_plot(ax, df, xlabel, ylabel, labeled_points, palette, xcol, ycol):
     ax.set_xlim([-0.05, 1])
     ax.set_ylim([-0.05, 1])
     ax.set_xlabel(xlabel)
-    ax.xaxis.set_label_coords(0.2, -0.1)
+    ax.xaxis.set_label_coords(0.2, 0)
     ax.set_ylabel(ylabel)
     
     _ = ax.legend()
@@ -52,13 +52,14 @@ def xy_fig(df, xlabel, ylabel, labeled_points, xcol="c_m1_rate", ycol="c_cpi_rat
     return fig
 
 
-def xy_fig_with_error(df, xlabel, ylabel, labeled_points, xcol="c_m1_rate", ycol="c_cpi_rate", figsize=(12, 6)):
-    palette = sns.color_palette()
-    fig, axs = plt.subplots(1, 2, sharex=True, sharey=False, figsize=figsize)
-    lin_reg = xy_plot(axs[0], df, xlabel, ylabel, labeled_points, palette, xcol, ycol)
+def xy_fig_with_error(df, xlabel, ylabel, labeled_points, xcol="c_m1_rate", ycol="c_cpi_rate", figsize=(6, 12)):
+    with mpl.rc_context({'axes.labelsize': 'small'}):
+        palette = sns.color_palette()
+        fig, axs = plt.subplots(2, 1, sharex=True, sharey=False, figsize=figsize)
+        lin_reg = xy_plot(axs[0], df, xlabel, ylabel, labeled_points, palette, xcol, ycol)
 
-    viz.xy_reg_diff_plot(axs[1], df, lin_reg, palette[0], palette[1], labeled_points, xcol, ycol)
-    viz.cite_source(axs[1], "Barro Marcoeconomics: A Modern Approach, 2008")
-    axs[1].set_ylabel("Regression Error")
-    plt.tight_layout()
+        viz.xy_reg_diff_plot(axs[1], df, lin_reg, palette[0], palette[1], labeled_points, xcol, ycol)
+        viz.cite_source(axs[1], "Barro Marcoeconomics: A Modern Approach, 2008")
+        axs[1].set_ylabel("Regression Error")
+        plt.tight_layout()
     return fig

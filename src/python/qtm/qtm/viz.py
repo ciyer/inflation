@@ -18,17 +18,18 @@ def set_style():
     sns.set()
     if 'ciyer' in mpl.style.available:
         plt.style.use(['seaborn-darkgrid', 'ciyer'])
-        font = {'family': 'sans-serif', 'sans-serif': 'League Spartan', 'size': 18}
+        font = {'family': 'sans-serif', 'size': 18}
     else:
         plt.style.use(['seaborn-darkgrid'])
         p = sns.color_palette()
         sns.set_palette([p[0], p[3], p[8], p[2], p[7], p[4]])
         font = {'size': 18}
     mpl.rc('font', **font)
+    mpl.rc('figure', dpi=300)
     
     
 def annot_line(ax, line_loc, text, text_loc, a_color):
-    ax.axvline(pd.to_datetime(line_loc), color=a_color, lw=2, alpha=0.5)
+    ax.axvline(pd.to_datetime(line_loc), color=a_color, lw=3, alpha=0.5)
     ax.annotate(text, (pd.to_datetime(text_loc[0]), text_loc[1]), fontsize="x-small")
 
 
@@ -97,6 +98,12 @@ def cite_source(ax, source):
     viz = "Visualization & Errors: @ciyer"
     ax.annotate(f"{source_header} {source}\n{viz}", (1, 0), (-2, -35), fontsize=8,
                 xycoords='axes fraction', textcoords='offset points', va='bottom', ha='right')
+    
+    
+def cite_fig_source(fig, source, x=0.93, y=0.07):
+    source_header = "Source:"
+    viz = "Visualization & Errors: @ciyer"
+    fig.supxlabel(f"{source_header} {source}\n{viz}", x=x, y=y, fontsize=8, va='bottom', ha='right')
 
 
 def xy_plot(ax, df, lin_reg, scatterc, linec, xeqyc, labelc, labeled_points, xcol, ycol):

@@ -42,7 +42,8 @@ country_code_map = {
     "RUS": "Russia",
     "SWE": "Sweden",
     "TUR": "Turkey",
-    "USA": "United States"
+    "USA": "United States",
+    "ZAF": "South Africa"
 }
 
 def read_data(path):
@@ -123,12 +124,12 @@ def to_quantile_df(df, xcol, ycol, num_quantiles):
 def quantile_ts_plot_df(df, cat_col, other_col, tperiod):
     result_dfs = []
     for name, ldf in df.groupby(level='LOCATION'):
-        cc = ldf[cat_col].reset_index(drop=True)
+        cc = ldf[cat_col].reset_index(level=0, drop=True)
         cc.name = "cat"
         rdf = pd.DataFrame(cc)
         rdf['LOCATION'] = name
         for i in range(0, tperiod):
-            rdf.loc[:, f"Year_{i}"] = ldf[other_col].shift(-1*i).reset_index(drop=True)
+            rdf.loc[:, f"Year_{i}"] = ldf[other_col].shift(-1*i).reset_index(level=0, drop=True)
         result_dfs.append(rdf)
     result_df = pd.concat(result_dfs).set_index('LOCATION', append=True)
     return result_df.reorder_levels([1, 0]).sort_index().set_index('cat', append=True)
@@ -215,12 +216,21 @@ def quantile_ts_lines(ax, df, color, highlight_color, threshold, alpha=0.025, hi
 
 def quantile_ts_threshold(ax, threshold, maxy, a_color, alpha):
     ax.axhspan(threshold, maxy, color=a_color, alpha=alpha)
+    
+    
+def quantile_ts_plot(ax, df, color, highlight_color, threshold, alpha, highlight_alpha, 
+                     normal_label, top_label, num_q, threshold_color, threshold_alpha):
+    quantile_ts_lines(ax, df, color, highlight_color, threshold, alpha, highlight_alpha,
+                        normal_label, top_label)
+    quantile_ts_scatter(ax, df, color, highlight_color, threshold, alpha, highlight_alpha, top_label)
+    quantile_ts_threshold(ax, threshold, num_q, threshold_color, highlight_alpha)    
 
 
 def facet_quantile_ts_plot(money, cpi, color, **kwargs):
     palette = sns.color_palette()
     data = kwargs['data']
     loc = data.iloc[0]['LOCATION']
+    num_q = kwargs['num_q']
     threshold = kwargs['threshold']
     top_label = kwargs['top_label']
     normal_label = "other year"
@@ -228,11 +238,12 @@ def facet_quantile_ts_plot(money, cpi, color, **kwargs):
     alpha = kwargs['alpha']
     highlight_alpha = kwargs['highlight_alpha']
     ax = plt.gca()
-    palette = sns.color_palette()
-    quantile_ts_lines(ax, df.loc[loc], palette[4], palette[1], threshold, alpha, highlight_alpha,
-                        normal_label, top_label)
-    quantile_ts_scatter(ax, df.loc[loc], palette[4], palette[1], threshold, alpha, highlight_alpha, top_label)
-    quantile_ts_threshold(ax, threshold, 20, palette[4], 0.3)
+    quantile_ts_plot(ax, df.loc[loc], palette[4], palette[1], threshold, alpha, highlight_alpha, 
+                     normal_label, top_label, num_q, palette[4], 0.3)
+#     quantile_ts_lines(ax, df.loc[loc], palette[4], palette[1], threshold, alpha, highlight_alpha,
+#                         normal_label, top_label)
+#     quantile_ts_scatter(ax, df.loc[loc], palette[4], palette[1], threshold, alpha, highlight_alpha, top_label)
+#     quantile_ts_threshold(ax, threshold, num_q, palette[4], 0.3)
 
 
 class Data:
@@ -246,8 +257,8 @@ class Data:
         self.monthly_path = os.path.join(folder_path, f"{ma}-cpi_m.csv")
         self.monthly_reg_path = os.path.join(folder_path, f"{ma}-cpi_m_reg.csv")
         palette = sns.color_palette()
-        self.inflation_color = palette[1]
-        self.money_color = palette[0]
+        self.inflation_color = palette[3]
+        self.money_color = palette[2]
         self.annot_color = palette[4]
         self.annual_df = None
         self.annual_df_full = None   # include the US 2020 data
@@ -286,7 +297,8 @@ class Data:
         sdf = summary_df(self.annual_df, ma)
         summary_fig(ax, sdf, f"{ma} growth rate", "Inflation rate", countries_to_label, ma)
         
-    def annual_ts_fig(self, marker_date=None, years_frac=3, subset=None, sharey=False, df=None, ylabel="% Change"):
+    def annual_ts_fig(self, marker_date=None, years_frac=3, subset=None, sharey=False, df=None, ylabel="% Change", 
+                      citex=0.93, citey=0.07, show_title=False):
         if df is None:
             df = self.annual_df
         if subset is None:
@@ -306,7 +318,14 @@ class Data:
         for l in tdf['LOCATION'].values:
             ax = g.axes_dict[l]
             ax.set_title(facet_ts_plot_label(self.annual_df, l))
-        g.axes[2].legend()
+        if subset is None:
+            g.axes[3].legend()
+        if show_title:
+            tdf = df.loc[subset].groupby(level='LOCATION').max()
+            max_vals = tdf.agg([np.max, np.min])['c_cpi']
+            plt.gcf().suptitle(f"Year over Year Changes in CPI and M1 | Max Inflation {max_vals['amax']:.0f}% — {max_vals['amin']:.0f}%")    
+        viz.cite_fig_source(plt.gcf(), "OECD", citex, citey)
+        plt.tight_layout()        
         
     def quantile_subset(self, q):
         return self.max_inflation_df.index[self.max_inflation_df['quantile'] == q]
@@ -321,8 +340,9 @@ class Data:
         q_df = to_quantile_df(self.annual_df, cat_col, other_col, num_q)
         return quantile_ts_plot_df(q_df, cat_col, other_col, num_y)
     
-    def quantile_ts_fig(self, num_q, num_y, threshold_frac):
-        pp_df = self.quantile_ts_df(num_q, num_y)
+    def quantile_ts_fig(self, threshold_frac, num_q=20, num_y=6, pp_df=None):
+        if pp_df is None:
+            pp_df = self.quantile_ts_df(num_q, num_y)
         max_pct = pp_df.max().max()
         threshold = (1 - threshold_frac) * max_pct - 1
         tdf = pp_df.reset_index()
@@ -332,7 +352,8 @@ class Data:
         # top_label = f"top {threshold_frac*100:.0f}% year"
         top_label = None
         g = sns.FacetGrid(tdf, col="LOCATION", col_wrap=4, col_order=col_order, height=3, aspect=1.2)
-        g.map_dataframe(facet_quantile_ts_plot, "Years Out", "Inflation Rank", df=pp_df, alpha=0.2, highlight_alpha=0.3,
+        g.map_dataframe(facet_quantile_ts_plot, "Years Out", "Inflation Rank", df=pp_df, alpha=0.2, 
+                        highlight_alpha=0.3, num_q=num_q,
                         threshold=threshold, top_label=top_label)
         for l in tdf['LOCATION'].values:
             ax = g.axes_dict[l]
