@@ -93,10 +93,10 @@ def yeqx(ax, tdf, xcol, ycol, color, lims, label="y = x"):
     ax.plot(l, l, color=color, alpha=0.4, lw=3.0, label=label)
 
 
-def cite_source(ax, source):
+def cite_source(ax, source, xyloc=(1, 0), textloc=(-2, -35)):
     source_header = "Source:"
     viz = "Visualization & Errors: @ciyer"
-    ax.annotate(f"{source_header} {source}\n{viz}", (1, 0), (-2, -35), fontsize=8,
+    ax.annotate(f"{source_header} {source}\n{viz}", xyloc, textloc, fontsize=8,
                 xycoords='axes fraction', textcoords='offset points', va='bottom', ha='right')
     
     

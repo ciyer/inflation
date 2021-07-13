@@ -356,11 +356,13 @@ class Data:
                         highlight_alpha=0.3, num_q=num_q,
                         threshold=threshold, top_label=top_label)
         for l in tdf['LOCATION'].values:
-            ax = g.axes_dict[l]
+            ax = g.axes_dict.get(l)
+            if ax is None:
+                continue
             label_base = facet_ts_plot_label(self.annual_df, l)
             title = f"{label_base} | {pp_summary_ser.loc[l]*100:.0f}%"
             ax.set_title(title)
-        # g.axes[3].legend();
+        viz.cite_source(g.axes[-1], "OECD", (1, 0), (-2, -40))
     
 
 # Triage -- not sure we need this stuff
